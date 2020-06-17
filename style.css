@@ -6,6 +6,16 @@
 li {
     margin-bottom: 10px;
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.value {
+    display: flex;
+    justify-content: flex-start;
+}
+.add {
+    display: flex;
+    justify-content: flex-end;
 }
 .container {
     display: flex;

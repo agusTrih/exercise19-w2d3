@@ -10,7 +10,7 @@ button.addEventListener("click", (e) => {
 // fungsi create item dengan parameter nilai dari hasil inputan kita pada id task
 // menampilkan nilai input menggunakan insertAdjacentHTML YG terhubung dengan result
 function createItem(value) {
-    let result = `<li>${value}  <button>Edit</button><button>Delete</button></li>`;
+    let result = `<li><div class="value"> ${value}</div>  <div class="add"><button>Edit</button><button>Delete</button></div></li>`;
     list.insertAdjacentHTML("beforeend", result);
     task.value = "";
 }

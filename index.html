@@ -3,19 +3,32 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>W2D3</title>
+        <title>My ToDo App</title>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <div class="container">
-            <h1>To-Do App</h1>
-            <input id="task" type="text" maxlength="20" />
-            <button class="submit" id="button">Create</button>
-
-            <ul id="list"></ul>
+            <h1>TO DO APP</h1>
+            <div class="add-todo">
+                <div class="input">
+                    <input
+                        type="text"
+                        placeholder="Jam 9 Otw"
+                        id="input-todo"
+                        maxlength="30"
+                    />
+                    <button
+                        type="button"
+                        class="btn btn-primary"
+                        id="button-input"
+                    >
+                        Create
+                    </button>
+                </div>
+            </div>
+            <div class="output-todo"></div>
         </div>
 
-        <!-- Script -->
         <script src="script.js"></script>
     </body>
 </html>

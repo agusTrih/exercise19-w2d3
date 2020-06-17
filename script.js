@@ -67,7 +67,7 @@ resultInput = () => {
 };
 
 editItem = (index) => {
-    newItem = prompt("Mau edit jadi apa?");
+    newItem = prompt("add edit to new list:");
     list.splice(index, 1, newItem);
 
     resultInput();
